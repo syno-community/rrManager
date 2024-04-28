@@ -1,0 +1,62 @@
+[app]
+app_name = "RR 管理器"
+description = "RR 管理"
+index_title = "求助說明"
+
+[ui]
+greetings_text = "歡迎使用 RR 管理器!"
+tab_general = "一般"
+tab_addons = "增益集"
+tab_configuration = "設置"
+tab_debug = "偵錯"
+
+lb_select_update_file = "請選擇更新檔來源: "
+upload_update_file_form_validation_invalid_msg = "請選擇 update 更新檔 或 updateAll 更新檔 後開始上傳。"
+alt_confirm = "確認"
+update_rr_progress_msg = "更新 RR引導中: {0}. 狀態: {1}."
+update_rr_completed = "RR引導 更新已完成. 請重新啟動 NAS."
+update_rr_error_msg = "RR引導 更新失敗: {0}, 錯誤: {1}"
+update_rr_confirmation = "目前 RR引導版本: {0}. 更新檔版本: {1}"
+update_rr_confirmation_title = "確認更新"
+confirm_system_clean_up_msg = "您要執行清理系統分區腳本嗎?"
+confirm_system_clean_up_title = "確認清除"
+
+unable_update_rr_msg = "RR引導 更新未完成: {0}. 請上傳 更新檔 並重試。"
+upload_file_dialog_title = "上傳檔案"
+
+select_file = "選擇檔案"
+loading_text = "載入中 ..."
+system_info = "🖥️系統資訊："
+
+rr_actions = "RR Loader Actions"
+required_tasks_is_missing = "！！！系統中缺少必需的排程任務 {0}. 新增需要輸入您的密碼. 是否新增它們?"
+tasks_created_msg = "排程任務新建成功. 請重新啟動 RR Manager."
+share_notfound_msg = "！！！注意! {0} 資料夾沒有找到. 請新增 共用資料夾 並重新啟動應用程式。"
+required_components_missing-title = "缺少必需的組件"
+required_components_missing_spinner_msg = "！！！系統中似乎缺少某些任務： {0}. 請在開始使用 RR Manager 之前完成前置流程。"
+file_uploading_succesfull_msg = "檔案上傳完成. 是否進行更新?"
+update_confirm_title = "確認更新"
+uploading_file = "上傳檔案中 ..."
+save_addons_changes = "儲存 增益集修改"
+
+rr_config_applied="RR 設定已更改成功. 請重新啟動 NAS 以套用 更改後設定。"
+checking_dependencies_loader="檢查依賴項目 ..."
+file_uploading_failed_msg="檔案上傳錯誤"
+completed="完成度："
+
+section_rr_actions="RR Actions"
+run_update="更新"
+
+frm_validation_fill_required_fields="請填寫必要字串。"
+frm_validation_no_change="未修改"
+
+save_addons_btn="儲存 增益集"
+
+col_system="系統用"
+col_installed="已選用"
+col_version="版本"
+col_name="名稱"
+col_description="功能敘述"
+
+[widget]
+message="Hello world!"
